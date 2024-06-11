@@ -60,6 +60,8 @@ function Register() {
             domain = 'centra.com';
         } else if (role === 'Harbor') {
             domain = 'harbor.com';
+        } else if (role === 'Admin') {
+            domain = 'admin.com';
         } else {
             domain = 'mail.com';
         }
