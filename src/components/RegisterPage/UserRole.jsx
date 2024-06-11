@@ -18,6 +18,10 @@ function UserRole({ onRoleChange }) {
             value: 'Harbor',
             label: 'Harbor',
         },
+        {
+            value: 'Admin',
+            label: 'Admin',
+        },
     ];
 
     const centra = [
@@ -118,3 +122,4 @@ function UserRole({ onRoleChange }) {
 }
 
 export default UserRole;
+
